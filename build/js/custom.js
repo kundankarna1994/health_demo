@@ -22,7 +22,7 @@ NOTE: This is the custom js file for the template
         width: "100%",
         containerCssClass: "select-lg",
       });
-      $(".chips").chips();
+      $(".chips").material_chip();
   });
 
 

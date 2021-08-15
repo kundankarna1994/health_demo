@@ -1,5 +1,5 @@
 module.exports = {
-  cacheId: "HDA-v1.0.2",
+  cacheId: "HDA-v1.0.3",
   globDirectory: "build/",
   globPatterns: [
     "**/*.{css,scss,html,jpeg,txt,ttf,png,jpg,js,less,eot,svg,woff,woff2,json,md,gif,markdown,rb,css.map}",

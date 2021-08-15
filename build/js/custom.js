@@ -14,7 +14,7 @@ NOTE: This is the custom js file for the template
 
   /*=================== PRELOADER ===================*/
   $(window).on('load',function() { 
-      $(".preloading").fadeOut("slow");
+      $(".preloading").fadeOut(2000);
       $("select:not(.select-multiple)").material_select();
       $(".modal").modal();
       $(".select-multiple").select2({
@@ -23,6 +23,7 @@ NOTE: This is the custom js file for the template
         containerCssClass: "select-lg",
       });
       $(".chips").material_chip();
+       $(".materialboxed").materialbox();
   });
 
 

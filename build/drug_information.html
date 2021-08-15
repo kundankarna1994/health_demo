@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Asiapp - Shop & Medical Mobile Template</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 maximum-scale=1"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="HandheldFriendly" content="True" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- CSS  -->
+    <link
+      rel="stylesheet"
+      href="lib/font-awesome/web-fonts-with-css/css/fontawesome-all.css"
+    />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- materialize icon -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="lib/owlcarousel/assets/owl.theme.default.min.css"
+    />
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="lib/slick/slick/slick-theme.css"
+    />
+    <!-- Magnific Popup core CSS file -->
+    <link
+      rel="stylesheet"
+      href="lib/Magnific-Popup-master/dist/magnific-popup.css"
+    />
+  </head>
+
+  <body id="homepage">
+    <!-- BEGIN PRELOADING -->
+    <div class="preloading">
+      <div class="wrap-preload">
+        <div class="cssload-loader"></div>
+      </div>
+    </div>
+    <!-- END PRELOADING -->
+    <!-- HEADER -->
+    <header id="header">
+      <div class="nav-wrapper container">
+        <div class="header-menu-button">
+          <a
+            href="#"
+            data-activates="nav-mobile-category"
+            class="button-collapse"
+            id="button-collapse-category"
+          >
+            <div class="cst-btn-menu">
+              <i class="fas fa-align-left"></i>
+            </div>
+          </a>
+        </div>
+        <div class="header-logo">
+          <a href="#" class="nav-logo">Asiapp</a>
+        </div>
+        <div class="header-icon-menu">
+          <a
+            href="#"
+            data-activates="nav-mobile-account"
+            class="button-collapse"
+            id="button-collapse-account"
+            ><i class="fas fa-search"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+    <!-- SIDE NAV-->
+    <nav>
+      <!-- LEFT SIDENAV-->
+        <ul id="nav-mobile-category" class="side-nav">
+            <li class="profile">
+                <div class="li-profile-info">
+                    <img src="img/profile4.jpg" alt="profile">
+                    <h2>John Doe</h2>
+                    <div class="emailprofile">email@email.com</div>
+                    <div class="balance">
+                        Profession : <span>Nursing</span>
+                    </div>
+                </div>
+                <div class="bg-profile-li">
+                    <img alt="photo" src="img/bg-profile.jpg">
+                </div>
+            </li>
+            <li>
+                <a class="waves-effect waves-blue" href="home.html"><i class="fas fa-home"></i>Home</a>
+            </li>
+            <li>
+                <a href="drugs.html"><i class="fas fa-medkit"></i>Drugs A-Z</a>
+            </li>
+            <li>
+                <a href="protocols.html"><i class="fas fa-cogs"></i>Health Protocols</a>
+            </li>
+            <li>
+                <a href="diseases.html"><i class="fas fa-heartbeat"></i>Diseases & Conditions</a>
+            </li>
+
+            <li>
+                <a href="pill_identifier.html"><i class="fas fa-search-plus"></i>Pill Identifier</a>
+            </li>
+
+            <li>
+                <a href="calculator.html"><i class="fas fa-calculator"></i>Calculator</a>
+            </li>
+            <li>
+                <a href="interaction_checker.html"><i class="fas fa-flag-checkered"></i>Interaction Checker</a>
+            </li>
+            
+            <li>
+                <a href="setting.html"><i class="fas fa-cog"></i>Setting</a>
+            </li>
+            <li>
+                <a href="contact.html"><i class="fas fa-envelope"></i>Contact Us</a>
+            </li>
+            <li>
+                <a href="/index.html"><i class="fas fa-sign-out-alt"></i>Sign Out</a>
+            </li>
+        </ul>
+      <!-- END LEFT SIDENAV-->
+      <!-- RIGHT SIDENAV-->
+      <ul id="nav-mobile-account" class="side-nav">
+        <li class="sidenav-logo">Search</li>
+        <li>
+          <div class="search-wrapper">
+            <input id="search" /><i class="material-icons">search</i>
+            <div class="search-results"></div>
+          </div>
+        </li>
+        <li>
+          <ul class="sidenav-search-result">
+            <li class="search-result-head"><a href="#">Search result</a></li>
+            <li><a href="#">Info - Healt Care Solution</a></li>
+            <li><a href="#">info - 5 ways to winterproof your skin </a></li>
+            <li><a href="#">info - 4 healthy snacks to keep you full </a></li>
+          </ul>
+        </li>
+        <li>
+          <ul class="sidenav-search-result">
+            <li class="search-result-head"><a href="#">Populer tag</a></li>
+            <li>
+              <div class="section populer-search">
+                <div class="list-tag-word">
+                  <a class="tag-word">Doctor</a>
+                  <a class="tag-word">Medicine</a>
+                  <a class="tag-word">Hospital</a>
+                  <a class="tag-word">health</a>
+                  <a class="tag-word">drink</a>
+                  <a class="tag-word">sport</a>
+                  <a class="tag-word">Checkup</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <!-- END RIGHT SIDENAV-->
+    </nav>
+    <div id="page-content" class="product-page">
+      <div id="product-image" class="pg-product-image">
+        <!-- image -->
+        <div>
+          <div class="pgp-wrap-img">
+            <div class="pgp-wrap-img-in">
+              <div class="pgp-img">
+                <img src="img/acetaminophen.jpg" alt="product" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end image -->
+      </div>
+      <div class="add-wish-lish">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <div class="awl-btn">
+                <div class="awl-btn-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <div class="name-price">
+              <div class="pg-product-name">Acetaminophen</div>
+              <div class="pg-product-price"><i class="fa fa-microphone"></i></div>
+              <div class="clear"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="desciption-product">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              Acetaminophen is a pain reliever and a fever reducer.
+              Acetaminophen is used to treat mild to moderate and pain, to treat
+              moderate to severe pain in conjunction with opiates, or to reduce
+              fever. Common conditions that acetaminophen treats include
+              headache, muscle aches, arthritis, backache, toothaches, sore
+              throat, colds, flu, and fevers.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cart-page">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <div class="section-title">
+                <span class="theme-secondary-color">Other</span> Information
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header">What is acetaminophen?</div>
+                  <div class="collapsible-body">
+                    <span
+                      >Acetaminophen is a pain reliever and a fever reducer.
+                      Acetaminophen is used to treat mild to moderate and pain,
+                      to treat moderate to severe pain in conjunction with
+                      opiates, or to reduce fever. Common conditions that
+                      acetaminophen treats include headache, muscle aches,
+                      arthritis, backache, toothaches, sore throat, colds, flu,
+                      and fevers.
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header">Warnings</div>
+                  <div class="collapsible-body">
+                    <span
+                      >You should not use this medication if you have severe
+                      liver disease. An overdose of acetaminophen can damage
+                      your liver or cause death
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header">Side Effects</div>
+                  <div class="collapsible-body">
+                    <span
+                      >Get emergency medical help if you have signs of an
+                      allergic reaction to acetaminophen: hives; difficulty
+                      breathing; swelling of your face, lips, tongue, or throat.
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header">Dosages</div>
+                  <div class="collapsible-body">
+                    <span
+                      >Applies to the following strengths: 160 mg; 80 mg/0.8 mL;
+                      160 mg/5 mL; 500 mg; 650 mg; 80 mg; 325 mg; 500 mg/15 mL;
+                      120 mg; 120 mg/5 mL; 325 mg/10.15 mL; 650 mg/20.3 mL; 10
+                      mg/mL; 80 mg/5 mL; 650 mg/25 mL; 80 mg/mL; 500 mg/5 mL; 48
+                      mg/mL
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <footer id="footer">
+        <div class="container">
+            <div class="row row-footer-icon">
+                <div class="col s12">
+                    <div class="footer-sosmed-icon ">
+                        <div class="wrap-circle-sosmed ">
+                            <a href="#">
+                                <div class="circle-sosmed">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="wrap-circle-sosmed ">
+                            <a href="#">
+                                <div class="circle-sosmed">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="wrap-circle-sosmed ">
+                            <a href="#">
+                                <div class="circle-sosmed">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="wrap-circle-sosmed ">
+                            <a href="#">
+                                <div class="circle-sosmed">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                2021 <span>HDA</span>, All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+    <!-- Script -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <!-- Owl carousel -->
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="lib/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+    <!-- Slick JS -->
+    <script src="lib/slick/slick/slick.min.js"></script>
+    <!-- Custom script -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>

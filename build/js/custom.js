@@ -14,7 +14,7 @@ NOTE: This is the custom js file for the template
 
   /*=================== PRELOADER ===================*/
   $(window).on('load',function() { 
-      $(".preloading").fadeOut(2000);
+      $(".preloading").fadeOut("slow");
       $("select:not(.select-multiple)").material_select();
       $(".modal").modal();
       $(".select-multiple").select2({

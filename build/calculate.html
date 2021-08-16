@@ -183,7 +183,7 @@
           <div class="row">
             <div class="col s12 m12 l12">
               <div class="section-title">
-                <span class="theme-secondary-color">SETTING</span> ACCOUNT
+                <span class="theme-secondary-color">BMI and BSA </span> Calculator
               </div>
             </div>
           </div>
@@ -222,7 +222,7 @@
                   <div class="input-field col s12 m6 l4 offset-m3 offset-l4 center">
                 <input
                   class="waves-effect waves-light btn"
-                  value="Search"
+                  value="Calculate"
                   type="button"
                 />
               </div>
@@ -249,36 +249,6 @@
                     <h6>Body Surface Area </h6><p>0.263 m2</p>
                 </div>
             </div>
-            <!-- <div class="row">
-                <div class="col s12 m6">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                        <span class="card-title" style="font-size: 15px;">Body Mass Index</span>
-                        <p>3561.57 kg/m2</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m6">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                        <span class="card-title" style="font-size: 15px;">Weight Category</span>
-                        <p>Obsese Category</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m6">
-                    <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                        <span class="card-title" style="font-size: 15px;">Body Surface Area</span>
-                        <p>0.263 m2</p>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
         <div class="modal-footer">
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
@@ -325,6 +295,18 @@
             </div>
         </div>
     </footer>
+     <!-- Element Showed -->
+  <div class="fixed-action-btn" style="bottom: 15px; right: 10px;">
+        <a id="menu" class="btn btn-floating btn-large cyan"  onclick="$('.tap-target').tapTarget('open')"><i class="material-icons">mic</i></a>
+   </div>
+
+  <!-- Start Tap Target Structure -->
+  <div class="tap-target blue" data-activates="menu">
+    <div class="tap-target-content white-text">
+      <h5>Start a voice search</h5>
+      <p>You can use your voice to do search for drugs,diseases,conditions etc.</p>
+    </div>
+  </div>
     <!-- END FOOTER -->
     <!-- Script -->
     <script src="js/jquery.min.js"></script>

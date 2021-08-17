@@ -1,8 +1,8 @@
 {
-  "name": "Health Demo App",
+  "name": "Emergency Health Services",
   "short_name": "HDA",
-  "theme_color": "#fff",
-  "background_color": "#fff",
+  "theme_color": "##318bb1",
+  "background_color": "##318bb1",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",

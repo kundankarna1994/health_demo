@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>HDA - Health Demo App</title>
+    <title>EHS - Health Demo App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -52,7 +52,7 @@
                 </a>
             </div>
             <div class="header-logo">
-                <a href="#" class="nav-logo">HDA</a>
+                <a href="#" class="nav-logo">EHS</a>
             </div>
             <div class="header-icon-menu">
                 <a href="#" data-activates="nav-mobile-account" class="button-collapse" id="button-collapse-account"><i
@@ -85,16 +85,17 @@
             <li>
                 <a class="waves-effect waves-blue" href="home.html"><i class="fas fa-home"></i>Home</a>
             </li>
+            
+           
+            <li>
+                <a href="protocols_backgrounds.html"><i class="fas fa-cogs"></i>Protocol Backgrounds</a>
+            </li>
+            <li>
+                <a href="emergency_diseases.html"><i class="fas fa-heartbeat"></i>Emergency Conditions</a>
+            </li>
             <li>
                 <a href="drugs.html"><i class="fas fa-medkit"></i>Drugs A-Z</a>
             </li>
-            <li>
-                <a href="protocols.html"><i class="fas fa-cogs"></i>Health Protocols</a>
-            </li>
-            <li>
-                <a href="diseases.html"><i class="fas fa-heartbeat"></i>Diseases & Conditions</a>
-            </li>
-
             <li>
                 <a href="pill_identifier.html"><i class="fas fa-search-plus"></i>Pill Identifier</a>
             </li>
@@ -124,17 +125,17 @@
             </li>
             <li>
                 <div class="search-wrapper ">
-                    <input id="search"><i class="material-icons">search</i>
+                    <input id="search" value="Breathe"><i class="material-icons">search</i>
                     <div class="search-results"></div>
                 </div>
             </li>
             <li>
                 <ul class="sidenav-search-result">
                     <li class="search-result-head"><a href="#">Search result</a></li>
-                    <li><a href="#">Info - Healt Care Solution</a></li>
-                    <li><a href="#">info - 5 ways to winterproof your skin </a></li>
-                    <li><a href="#">info - 4 healthy snacks to keep you full </a></li>
-
+                    <li><a href="emergency_disease_information.html">Emergency Conditions - Shortness of Breath</a></li>
+                    <li><a href="protocol_topic_information.html">Background - Definition of Emergency Health Services</a></li>
+                    
+                    <li><a href="drug_information.html">Drugs - Acetaminophen </a></li>
                 </ul>
             </li>
             <li>
@@ -143,13 +144,11 @@
                     <li>
                         <div class="section populer-search">
                             <div class="list-tag-word">
-                                <a class="tag-word">Doctor</a>
-                                <a class="tag-word">Medicine</a>
-                                <a class="tag-word">Hospital</a>
-                                <a class="tag-word">health</a>
-                                <a class="tag-word">drink</a>
-                                <a class="tag-word">sport</a>
-                                <a class="tag-word">Checkup</a>
+                                <a class="tag-word">Background</a>
+                                <a class="tag-word">ENT</a>
+                                <a class="tag-word">Emergency</a>
+                                <a class="tag-word">Breathe</a>
+                                <a class="tag-word">Neurlogical</a>
                             </div>
                         </div>
                     </li>
@@ -175,35 +174,35 @@
     <div class="section home-category">
         <div class="container">
             <div class="row icon-service">
-                <div class="col s4 m4 l2"><a class="icon-content" href="drugs.html">
-                        <div class="content fadetransition">
-                            <div class="in-content">
-                                <div class="in-in-content">
-                                    <img src="img/drugs-az.png" alt="category">
-                                    <h5>Drugs<br>A-Z</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col s4 m4 l2"><a class="icon-content" href="protocols.html">
+                <div class="col s4 m4 l2"><a class="icon-content" href="protocols_backgrounds.html">
                         <div class="content fadetransition">
                             <div class="in-content">
                                 <div class="in-in-content">
                                     <img src="img/health-protocols.png" alt="category">
-                                    <h5>Health<br>Protocols</h5>
+                                    <h5>Protocol<br>Backgrounds</h5>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col s4 m4 l2"><a class="icon-content" href="diseases.html">
+                <div class="col s4 m4 l2"><a class="icon-content" href="emergency_conditions.html">
                         <div class="content fadetransition">
                             <div class="in-content">
                                 <div class="in-in-content">
                                     <!--  -->
                                     <img src="img/conditions-diseases.png"  alt="category">
-                                    <h5>Diseases & <br> Conditions</h5>
+                                    <h5>Emergency<br> Conditions</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                 <div class="col s4 m4 l2"><a class="icon-content" href="drugs.html">
+                        <div class="content fadetransition">
+                            <div class="in-content">
+                                <div class="in-in-content">
+                                    <img src="img/drugs-az.png" alt="category">
+                                    <h5>Drugs<br>A-Z</h5>
                                 </div>
                             </div>
                         </div>
@@ -303,24 +302,6 @@
             </div>
         </div>
     </div>
-    <div class="section subscribe">
-        <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    <div class="section-title">SUBSCRIBE</div>
-                    <p class="center">Get healthy news and solutions every day</p>
-                    <div class="mail-subscribe-box">
-                        <input class="form-control" name="user-email" placeholder="Enter email address" value=""
-                            type="email">
-                        <i class="fa fa-angle-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bg-subscribe">
-            <img src="img/background2.png">
-        </div>
-    </div>
     <!-- END SUBSCRIBE -->
     <!-- FOOTER  -->
     <footer id="footer">
@@ -360,7 +341,7 @@
                 </div>
             </div>
             <div class="row copyright">
-                2021 <span>HDA</span>, All rights reserved.
+                2021 <span>EHS</span>, All rights reserved.
             </div>
         </div>
     </footer>

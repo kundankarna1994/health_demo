@@ -1,362 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>EHS - Health Demo App</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-touch-fullscreen" content="yes">
-    <meta name="HandheldFriendly" content="True">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <title>EHS - Emergency Health Services</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 maximum-scale=1"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="HandheldFriendly" content="True" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <!-- CSS  -->
-    <link rel="stylesheet" href="lib/font-awesome/web-fonts-with-css/css/fontawesome-all.css">
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- materialize icon -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Owl carousel -->
-    <link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="lib/owlcarousel/assets/owl.theme.default.min.css">
-    <!-- Slick CSS -->
-    <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick-theme.css">
-    <!-- Magnific Popup core CSS file -->
-    <link rel="stylesheet" href="lib/Magnific-Popup-master/dist/magnific-popup.css">
     <link
       rel="stylesheet"
-      href="css/select2.min.css"
+      href="lib/font-awesome/web-fonts-with-css/css/fontawesome-all.css"
     />
-</head>
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- materialize icon -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="lib/owlcarousel/assets/owl.theme.default.min.css"
+    />
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="lib/slick/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="lib/slick/slick/slick-theme.css"
+    />
+    <!-- Magnific Popup core CSS file -->
+    <link
+      rel="stylesheet"
+      href="lib/Magnific-Popup-master/dist/magnific-popup.css"
+    />
+    <link rel="stylesheet" href="css/select2.min.css" />
+  </head>
 
-<body id="homepage">
+  <body id="homepage">
     <!-- BEGIN PRELOADING -->
     <div class="preloading">
-        <div class="wrap-preload">
-            <div class="cssload-loader"></div>
-        </div>
+      <div class="wrap-preload">
+        <div class="cssload-loader"></div>
+      </div>
     </div>
     <!-- END PRELOADING -->
     <!-- HEADER -->
     <header id="header">
-        <div class="nav-wrapper container">
-
-
-            <div class="header-menu-button">
-                <a href="#" data-activates="nav-mobile-category" class="button-collapse" id="button-collapse-category">
-                    <div class="cst-btn-menu">
-                        <i class="fas fa-align-left"></i>
-                    </div>
-                </a>
+      <div class="nav-wrapper container">
+        <div class="header-menu-button">
+          <a
+            href="#"
+            data-activates="nav-mobile-category"
+            class="button-collapse"
+            id="button-collapse-category"
+          >
+            <div class="cst-btn-menu">
+              <i class="fas fa-align-left"></i>
             </div>
-            <div class="header-logo">
-                <a href="#" class="nav-logo">EHS</a>
-            </div>
-            <div class="header-icon-menu">
-                <a href="#" data-activates="nav-mobile-account" class="button-collapse" id="button-collapse-account"><i
-                        class="fas fa-search"></i></a>
-            </div>
-
-
-
+          </a>
         </div>
+        <div class="header-logo">
+          <a href="#" class="nav-logo">EHS</a>
+        </div>
+        <div class="header-icon-menu">
+          <a
+            href="#"
+            data-activates="nav-mobile-account"
+            class="button-collapse"
+            id="button-collapse-account"
+            ><i class="fas fa-search"></i
+          ></a>
+        </div>
+      </div>
     </header>
     <!-- END HEADER -->
     <!-- SIDE NAV-->
     <nav>
+      <!-- LEFT SIDENAV-->
+      <ul id="nav-mobile-category" class="side-nav">
+        <li class="profile">
+          <div class="li-profile-info">
+            <img src="img/profile4.jpg" alt="profile" />
+            <h2>John Doe</h2>
+            <div class="emailprofile">email@email.com</div>
+            <div class="balance">Profession : <span>Nursing</span></div>
+          </div>
+          <div class="bg-profile-li">
+            <img alt="photo" src="img/bg-profile.jpg" />
+          </div>
+        </li>
+        <li>
+          <a class="waves-effect waves-blue" href="home.html"
+            ><i class="fas fa-home"></i>Home</a
+          >
+        </li>
 
-        <!-- LEFT SIDENAV-->
-        <ul id="nav-mobile-category" class="side-nav">
-            <li class="profile">
-                <div class="li-profile-info">
-                    <img src="img/profile4.jpg" alt="profile">
-                    <h2>John Doe</h2>
-                    <div class="emailprofile">email@email.com</div>
-                    <div class="balance">
-                        Profession : <span>Nursing</span>
-                    </div>
-                </div>
-                <div class="bg-profile-li">
-                    <img alt="photo" src="img/bg-profile.jpg">
-                </div>
-            </li>
-            <li>
-                <a class="waves-effect waves-blue" href="home.html"><i class="fas fa-home"></i>Home</a>
-            </li>
-            
-           
-            <li>
-                <a href="protocols_backgrounds.html"><i class="fas fa-cogs"></i>Protocol Backgrounds</a>
-            </li>
-            <li>
-                <a href="emergency_diseases.html"><i class="fas fa-heartbeat"></i>Emergency Conditions</a>
-            </li>
-            <li>
-                <a href="drugs.html"><i class="fas fa-medkit"></i>Drugs A-Z</a>
-            </li>
-            <li>
-                <a href="pill_identifier.html"><i class="fas fa-search-plus"></i>Pill Identifier</a>
-            </li>
+        <li>
+          <a href="protocols_backgrounds.html"
+            ><i class="fas fa-cogs"></i>Protocol Backgrounds</a
+          >
+        </li>
+        <li>
+          <a href="emergency_diseases.html"
+            ><i class="fas fa-heartbeat"></i>Emergency Conditions</a
+          >
+        </li>
+        <li>
+          <a href="drugs.html"><i class="fas fa-medkit"></i>Drugs A-Z</a>
+        </li>
+        <li>
+          <a href="pill_identifier.html"
+            ><i class="fas fa-search-plus"></i>Pill Identifier</a
+          >
+        </li>
 
-            <li>
-                <a href="calculator.html"><i class="fas fa-calculator"></i>Calculator</a>
-            </li>
-            <li>
-                <a href="interaction_checker.html"><i class="fas fa-flag-checkered"></i>Interaction Checker</a>
-            </li>
-            
-            <li>
-                <a href="setting.html"><i class="fas fa-cog"></i>Setting</a>
-            </li>
-            <li>
-                <a href="contact.html"><i class="fas fa-envelope"></i>Contact Us</a>
-            </li>
-            <li>
-                <a href="/index.html"><i class="fas fa-sign-out-alt"></i>Sign Out</a>
-            </li>
-        </ul>
-        <!-- END LEFT SIDENAV-->
-        <!-- RIGHT SIDENAV-->
-        <ul id="nav-mobile-account" class="side-nav">
-            <li class="sidenav-logo">
-                Search
-            </li>
-            <li>
-                <div class="search-wrapper ">
-                    <input id="search" value="Breathe"><i class="material-icons">search</i>
-                    <div class="search-results"></div>
-                </div>
-            </li>
-            <li>
-                <ul class="sidenav-search-result">
-                    <li class="search-result-head"><a href="#">Search result</a></li>
-                    <li><a href="emergency_disease_information.html">Emergency Conditions - Shortness of Breath</a></li>
-                    <li><a href="protocol_topic_information.html">Background - Definition of Emergency Health Services</a></li>
-                    
-                    <li><a href="drug_information.html">Drugs - Acetaminophen </a></li>
-                </ul>
-            </li>
-            <li>
-                <ul class="sidenav-search-result">
-                    <li class="search-result-head"><a href="#">Populer tag</a></li>
-                    <li>
-                        <div class="section populer-search">
-                            <div class="list-tag-word">
-                                <a class="tag-word">Background</a>
-                                <a class="tag-word">ENT</a>
-                                <a class="tag-word">Emergency</a>
-                                <a class="tag-word">Breathe</a>
-                                <a class="tag-word">Neurlogical</a>
-                            </div>
-                        </div>
-                    </li>
+        <li>
+          <a href="calculator.html"
+            ><i class="fas fa-calculator"></i>Calculator</a
+          >
+        </li>
+        <li>
+          <a href="interaction_checker.html"
+            ><i class="fas fa-flag-checkered"></i>Interaction Checker</a
+          >
+        </li>
 
-                </ul>
-            </li>
-
-
-        </ul>
-        <!-- END RIGHT SIDENAV-->
-
+        <li>
+          <a href="setting.html"><i class="fas fa-cog"></i>Setting</a>
+        </li>
+        <li>
+          <a href="contact.html"><i class="fas fa-envelope"></i>Contact Us</a>
+        </li>
+        <li>
+          <a href="/index.html"><i class="fas fa-sign-out-alt"></i>Sign Out</a>
+        </li>
+      </ul>
+      <!-- END LEFT SIDENAV-->
+      <!-- RIGHT SIDENAV-->
+      <ul id="nav-mobile-account" class="side-nav">
+        <li class="sidenav-logo">Search</li>
+        <li>
+          <div class="search-wrapper" href="search_results.html">
+            <input id="search" value="" />
+            <a href="search_results.html"><i class="material-icons">search</i></a>
+          </div>
+        </li>
+      </ul>
+      <!-- END RIGHT SIDENAV-->
     </nav>
     <!-- END SIDENAV-->
     <!-- MAIN SLIDER -->
     <div class="main-slider" data-indicators="true">
-        <div class="carousel carousel-slider " data-indicators="true">
-            <a class="carousel-item"><img src="img/covid-symptoms.jpg" alt="slider"></a>
-            <a class="carousel-item"><img src="img/covid-news.jpg" alt="slider"></a>
-        </div>
+      <div class="carousel carousel-slider" data-indicators="true">
+        <a class="carousel-item"
+          ><img src="img/covid-symptoms.jpg" alt="slider"
+        /></a>
+        <a class="carousel-item"
+          ><img src="img/covid-news.jpg" alt="slider"
+        /></a>
+      </div>
     </div>
     <!-- END MAIN SLIDER -->
     <!-- CATEGORY -->
     <div class="section home-category">
-        <div class="container">
-            <div class="row icon-service">
-                <div class="col s4 m4 l2"><a class="icon-content" href="protocols_backgrounds.html">
-                        <div class="content fadetransition">
-                            <div class="in-content">
-                                <div class="in-in-content">
-                                    <img src="img/health-protocols.png" alt="category">
-                                    <h5>Protocol<br>Backgrounds</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+      <div class="container">
+        <div class="row icon-service">
+          <div class="col s4 m4 l2">
+            <a class="icon-content" href="protocols_backgrounds.html">
+              <div class="content fadetransition">
+                <div class="in-content">
+                  <div class="in-in-content">
+                    <img src="img/health-protocols.png" alt="category" />
+                    <h5>Protocol<br />Backgrounds</h5>
+                  </div>
                 </div>
-                <div class="col s4 m4 l2"><a class="icon-content" href="emergency_conditions.html">
-                        <div class="content fadetransition">
-                            <div class="in-content">
-                                <div class="in-in-content">
-                                    <!--  -->
-                                    <img src="img/conditions-diseases.png"  alt="category">
-                                    <h5>Emergency<br> Conditions</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col s4 m4 l2">
+            <a class="icon-content" href="emergency_conditions.html">
+              <div class="content fadetransition">
+                <div class="in-content">
+                  <div class="in-in-content">
+                    <!--  -->
+                    <img src="img/conditions-diseases.png" alt="category" />
+                    <h5>
+                      Emergency<br />
+                      Conditions
+                    </h5>
+                  </div>
                 </div>
-                 <div class="col s4 m4 l2"><a class="icon-content" href="drugs.html">
-                        <div class="content fadetransition">
-                            <div class="in-content">
-                                <div class="in-in-content">
-                                    <img src="img/drugs-az.png" alt="category">
-                                    <h5>Drugs<br>A-Z</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col s4 m4 l2">
+            <a class="icon-content" href="drugs.html">
+              <div class="content fadetransition">
+                <div class="in-content">
+                  <div class="in-in-content">
+                    <img src="img/drugs-az.png" alt="category" />
+                    <h5>Drugs<br />A-Z</h5>
+                  </div>
                 </div>
-                <div class="col s4 m4 l2"><a class="icon-content" href="pill_identifier.html">
-                        <div class="content fadetransition">
-                            <div class="in-content">
-                                <div class="in-in-content">
-                                    <img src="img/pill-identifier.png" alt="category">
-                                    <h5>Pill<br>Identifier</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col s4 m4 l2">
+            <a class="icon-content" href="pill_identifier.html">
+              <div class="content fadetransition">
+                <div class="in-content">
+                  <div class="in-in-content">
+                    <img src="img/pill-identifier.png" alt="category" />
+                    <h5>Pill<br />Identifier</h5>
+                  </div>
                 </div>
-                <div class="col s4 m4 l2"><a class="icon-content" href="calculator.html">
-                        <div class="content fadetransition">
-                            <div class="in-content">
-                                <div class="in-in-content">
-                                    <img src="img/calculator.png"  alt="category">
-                                    <h5>Medical<br>Calculator</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col s4 m4 l2">
+            <a class="icon-content" href="calculator.html">
+              <div class="content fadetransition">
+                <div class="in-content">
+                  <div class="in-in-content">
+                    <img src="img/calculator.png" alt="category" />
+                    <h5>Medical<br />Calculator</h5>
+                  </div>
                 </div>
-                <div class="col s4 m4 l2"><a class="icon-content" href="interaction_checker.html">
-                        <div class="content fadetransition">
-                            <div class="in-content">
-                                <div class="in-in-content">
-                                    <img src="img/interactions-checker.png" alt="category">
-                                    <h5>Ineraction<br>Checker</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col s4 m4 l2">
+            <a class="icon-content" href="interaction_checker.html">
+              <div class="content fadetransition">
+                <div class="in-content">
+                  <div class="in-in-content">
+                    <img src="img/interactions-checker.png" alt="category" />
+                    <h5>Ineraction<br />Checker</h5>
+                  </div>
                 </div>
-            </div>
+              </div>
+            </a>
+          </div>
         </div>
+      </div>
     </div>
     <!-- END CATEGORY -->
     <!-- PROMO -->
     <div class="section promo">
-        <div class="container">
-            <div class="col s12">
-                <img src="img/prom.png" alt="promo">
-            </div>
+      <div class="container">
+        <div class="col s12">
+          <img src="img/prom.png" alt="promo" />
         </div>
+      </div>
     </div>
     <!-- END PROMO -->
     <!-- NEWS -->
     <div class="section list-news">
-        <div class="container">
-            <div class="row row-title">
-                <div class="col s12">
-                    <div class="section-title">
-                        <span class="theme-secondary-color">HEALTH</span> INFORMATION
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row row-title">
+          <div class="col s12">
+            <div class="section-title">
+              <span class="theme-secondary-color">HEALTH</span> INFORMATION
             </div>
-            <div class="row row-list-news">
-                <div class="col s12">
-
-                    <!-- News item-->
-                    <div class="news-item">
-                        <div class="news-tem-image">
-                            <img src="img/Nepal-Public-Health-Bill-2075-2018.jpg">
-                        </div>
-                        <div class="news-item-info">
-                            <div class="list-news-title">
-                                Public health bill registered in parliament of Nepal
-                            </div>
-                            The Government of Nepal has registered the public health bill 2075 to make arrangements for public health services in the
-                            parliament.
-                            <a href="news-page.html" class="readmore">Read More</a>
-                        </div>
-                    </div>
-                    <!-- End news item-->
-                    <!-- News item-->
-                    <div class="news-item">
-                        <div class="news-tem-image">
-                            <img src="img/Nepal_Health_Sector_Budget_2020_2021_FY_2077_2078.jpg">
-                        </div>
-                        <div class="news-item-info">
-                            <div class="list-news-title">
-                                Ministry of Health to be made tobacco-free zone
-                            </div>
-                                Nepalese Ministry of Health has decided to place a ban on chewing tobacco on its premises
-                            <a href="news-page.html" class="readmore">Read More</a>
-                        </div>
-                    </div>
-                    <div class="more-news-list">
-                        <a class="more-btn" href="news-list.html">See More News &gt;</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row row-list-news">
+          <div class="col s12">
+            <!-- News item-->
+            <div class="news-item">
+              <div class="news-tem-image">
+                <img src="img/Nepal-Public-Health-Bill-2075-2018.jpg" />
+              </div>
+              <div class="news-item-info">
+                <div class="list-news-title">
+                  Public health bill registered in parliament of Nepal
+                </div>
+                The Government of Nepal has registered the public health bill
+                2075 to make arrangements for public health services in the
+                parliament.
+                <a href="news-page.html" class="readmore">Read More</a>
+              </div>
+            </div>
+            <!-- End news item-->
+            <!-- News item-->
+            <div class="news-item">
+              <div class="news-tem-image">
+                <img
+                  src="img/Nepal_Health_Sector_Budget_2020_2021_FY_2077_2078.jpg"
+                />
+              </div>
+              <div class="news-item-info">
+                <div class="list-news-title">
+                  Ministry of Health to be made tobacco-free zone
+                </div>
+                Nepalese Ministry of Health has decided to place a ban on
+                chewing tobacco on its premises
+                <a href="news-page.html" class="readmore">Read More</a>
+              </div>
+            </div>
+            <div class="more-news-list">
+              <a class="more-btn" href="news-list.html">See More News &gt;</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- END SUBSCRIBE -->
     <!-- FOOTER  -->
     <footer id="footer">
-        <div class="container">
-            <div class="row row-footer-icon">
-                <div class="col s12">
-                    <div class="footer-sosmed-icon ">
-                        <div class="wrap-circle-sosmed ">
-                            <a href="#">
-                                <div class="circle-sosmed">
-                                    <i class="fab fa-instagram"></i>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="wrap-circle-sosmed ">
-                            <a href="#">
-                                <div class="circle-sosmed">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="wrap-circle-sosmed ">
-                            <a href="#">
-                                <div class="circle-sosmed">
-                                    <i class="fab fa-twitter"></i>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="wrap-circle-sosmed ">
-                            <a href="#">
-                                <div class="circle-sosmed">
-                                    <i class="fab fa-facebook-f"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row row-footer-icon">
+          <div class="col s12">
+            <div class="footer-sosmed-icon">
+              <div class="wrap-circle-sosmed">
+                <a href="#">
+                  <div class="circle-sosmed">
+                    <i class="fab fa-instagram"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="wrap-circle-sosmed">
+                <a href="#">
+                  <div class="circle-sosmed">
+                    <i class="fab fa-linkedin-in"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="wrap-circle-sosmed">
+                <a href="#">
+                  <div class="circle-sosmed">
+                    <i class="fab fa-twitter"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="wrap-circle-sosmed">
+                <a href="#">
+                  <div class="circle-sosmed">
+                    <i class="fab fa-facebook-f"></i>
+                  </div>
+                </a>
+              </div>
             </div>
-            <div class="row copyright">
-                2021 <span>EHS</span>, All rights reserved.
-            </div>
+          </div>
         </div>
+        <div class="row copyright">
+          2021 <span>EHS</span>, All rights reserved.
+        </div>
+      </div>
     </footer>
-     <!-- Element Showed -->
-  <div class="fixed-action-btn" style="bottom: 15px; right: 10px;">
-        <a id="menu" class="btn btn-floating btn-large cyan"  onclick="$('.tap-target').tapTarget('open')"><i class="material-icons">mic</i></a>
-   </div>
-
-  <!-- Start Tap Target Structure -->
-  <div class="tap-target blue" data-activates="menu">
-    <div class="tap-target-content white-text">
-      <h5>Start a voice search</h5>
-      <p>You can use your voice to do search for drugs,diseases,conditions etc.</p>
+    <!-- Element Showed -->
+    <div class="fixed-action-btn" style="bottom: 15px; right: 10px">
+      <a
+        id="menu"
+        class="btn btn-floating btn-large cyan"
+        onclick="$('.tap-target').tapTarget('open')"
+        ><i class="material-icons">mic</i></a
+      >
     </div>
-  </div>
+
+    <!-- Start Tap Target Structure -->
+    <div class="tap-target blue" data-activates="menu">
+      <div class="tap-target-content white-text">
+        <h5>Start a voice search</h5>
+        <p>
+          You can use your voice to do search for drugs,diseases,conditions etc.
+        </p>
+      </div>
+    </div>
     <!-- END FOOTER -->
     <!-- Script -->
     <script src="js/jquery.min.js"></script>
@@ -367,9 +387,8 @@
     <script src="lib/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
     <!-- Slick JS -->
     <script src="lib/slick/slick/slick.min.js"></script>
-     <script src="js/select2.min.js"></script>
+    <script src="js/select2.min.js"></script>
     <!-- Custom script -->
     <script src="js/custom.js"></script>
-</body>
-
+  </body>
 </html>

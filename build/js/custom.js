@@ -201,8 +201,8 @@ NOTE: This is the custom js file for the template
 
   /*=================== SLICK CAROUSEL PRODUCT IMAGE ===================*/
       $("#product-image").slick({
-      arrows: false,
-      dots: true 
+        arrows: false,
+        dots: true 
       });
 })(jQuery);
 

@@ -1,5 +1,5 @@
 module.exports = {
-  cacheId: "EHS-v1.0.8",
+  cacheId: "EHS-v1.0.9",
   globDirectory: "build/",
   globPatterns: [
     "**/*.{css,scss,html,jpeg,txt,ttf,png,jpg,js,less,eot,svg,woff,woff2,json,md,gif,markdown,rb,css.map}",

@@ -209,7 +209,8 @@ img {
 
 #page-content {
   padding: 0px 0px;
-  min-height: calc( 100vh - 56px - 192px - 112px ); }
+  min-height: 100vh; 
+}
 
 .row-no-margin {
   margin-bottom: 0px; }

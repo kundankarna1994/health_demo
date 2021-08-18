@@ -102,7 +102,7 @@
                     id="password"
                     type="password"
                     class="validate"
-                    value="123456"
+                    autocomplete="on"
                   />
                   <label for="password">Password</label>
                 </div>
@@ -218,28 +218,6 @@
 
       if ("serviceWorker" in navigator) {
         const wb = new Workbox("/service-worker.js");
-
-        const showSkipWaitingPrompt = () => {
-          // This assumes a hypothetical createUIPrompt() method with
-          // onAccept and onReject callbacks:
-          const prompt = createUIPrompt({
-            onAccept: () => {
-              wb.addEventListener("controlling", () => {
-                window.location.reload();
-              });
-
-              // This will postMessage() to the waiting service worker.
-              wb.messageSkipWaiting();
-            },
-
-            onReject: () => {
-              prompt.dismiss();
-            },
-          });
-        };
-
-        // Listening for externalwaiting is no longer needed.
-        wb.addEventListener("waiting", showSkipWaitingPrompt);
         wb.register();
       }
     </script>

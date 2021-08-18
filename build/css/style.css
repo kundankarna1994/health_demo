@@ -1255,9 +1255,6 @@ nav a.button-collapse {
   cursor: pointer;
   width: 28px;
   height: 28px; }
-#page-content{
-  min-height: 100vh;
-}
 
 #page-content #subscribe-page {
   bottom: -2px; }
@@ -2107,7 +2104,3 @@ body.page-preview .content-right p {
   margin-bottom: 40px; }
 
 /*# sourceMappingURL=style.css.map */
-
-/* .comment-wrap .comment-box .cb-left {
-  width: 15%;
-} */
